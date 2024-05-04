@@ -83,10 +83,53 @@ nav li a:hover {
 }
 
 .PortEntry {
-	flex: 21%;
+	flex: 20%;
 	border: 5px solid black;
 }
 
+.PortEntry a {
+	text-decoration: none;
+}
+
+.PortEntry h2:hover {
+	color:red;
+}
+
 .PortEntry img {
+	display: block;
 	width: 100%;
+	border: 1px solid black;
+}
+
+.PortEntry img:hover {
+	border: 1px solid red;
+}
+
+.tech {
+	display: inline-block;
+	border: 1px solid white;
+	text-align: right;
+	
+}
+
+h2 {
+	font-weight: normal;
+	text-align: center;
+}
+
+footer {
+	width: 100%;
+	background color: black;
+}
+
+footer a {
+	display: inline-block;
+}
+
+footer a:hover {
+	color: red;
+}
+
+footer p {
+	display: inline-block;
 }

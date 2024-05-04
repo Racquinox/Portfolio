@@ -1,1 +1,3 @@
 Background: https://unsplash.com/@goumbik
+SplashAvoToast: https://www.pexels.com/@fotios-photos/
+AvoToast: https://www.pexels.com/@fotios-photos/

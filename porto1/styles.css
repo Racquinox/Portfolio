@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Playfair Display", serif;
+	font-family: "Ubuntu Sans Mono", monospace;
 }
 
 body {
@@ -18,4 +20,85 @@ header {
 
 h1 {
 	font-size: 8em;
+	margin-left: 60px;
+	font-family: "Playfair Display", serif;
+}
+
+h1 a {
+	text-decoration: none;
+	color: black;
+	font-family: "Playfair Display", serif;
+}
+
+main {
+	width: 90%;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.35);
+	border-bottom: 2px solid green;
+}
+
+nav {
+	width: 100%;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1.25em;
+}
+
+nav li a {
+	text-decoration: none;
+	font-family: "Ubuntu Sans Mono", monospace;
+	color: black;
+}
+
+nav li a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+section {
+	width: 95%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+span {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+#moto {
+	text-align: center;
+	font-size: 2em;
+}
+
+#SplashImg {
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+	background-image: url("img/SplashAvoToast.jpg");
+	background-size: cover;
+	min-height: 70vh;
+	margin-bottom: 20px;
+}
+
+#SplashImg p {
+	margin: 30px;
+	margin-top: 40px;
+	background-color: rgba(255, 255, 255, 0.35);
+	font-size: 1.25em;
+}
+
+footer {
+	background-color: rgba(255, 255, 255, 0.35);
+	width: 100%;
+	margin-top: 20px;
+	border-top: 2px solid green;
 }
