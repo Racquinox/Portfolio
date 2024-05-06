@@ -74,10 +74,22 @@ nav li a:hover {
 	color: red;
 }
 
+.chapter {
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	border-top: 2px solid red;
+}
+
+.chapter h3 {
+	font-size: 2em;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
 .PortDisplay {
 	width: 100%;
 	background-color: black;
-	border-top: 2px solid red;
 	display: flex;
 	flex-wrap: wrap;
 }
