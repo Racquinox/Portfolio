@@ -1,3 +1,15 @@
+/*  8888888b.                                     d8b                              */
+/*  888   Y88b                                    Y8P                              */
+/*  888    888                                                                     */
+/*  888   d88P  8888b.   .d8888b .d88888 888  888 888 88888b.   .d88b.  888  888   */
+/*  8888888P"      "88b d88P"   d88" 888 888  888 888 888 "88b d88""88b `Y8bd8P'   */
+/*  888 T88b   .d888888 888     888  888 888  888 888 888  888 888  888   X88K     */
+/*  888  T88b  888  888 Y88b.   Y88b 888 Y88b 888 888 888  888 Y88..88P .d8""8b.   */
+/*  888   T88b "Y888888  "Y8888P "Y88888  "Y88888 888 888  888  "Y88P"  888  888   */
+/*                                   888                                           */
+/*                                   888  Full-Stack Web Design & Development      */
+/*                                   888  Racquinox.net - Racquinox@Protonmail.com */
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
@@ -87,6 +99,7 @@ span {
 	background-size: cover;
 	min-height: 70vh;
 	margin-bottom: 20px;
+	border-radius: 25px;
 }
 
 #SplashImg p {
@@ -94,6 +107,7 @@ span {
 	margin-top: 40px;
 	background-color: rgba(255, 255, 255, 0.35);
 	font-size: 1.25em;
+	padding: 10px;
 }
 
 .menu {
