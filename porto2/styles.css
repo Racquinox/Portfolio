@@ -25,6 +25,7 @@ nav {
 	padding-top:10px;
 	padding-bottom:10px;
 	background-color: black;
+	border-bottom: 4px solid #FFCD00;
 }
 
 nav li {
@@ -46,7 +47,7 @@ nav li a:hover {
 
 header {
 	width: 100%;
-	background-color: #664B2D;
+	background-color: #FFCD00;
 	border-bottom: 1px solid black;
 }
 
@@ -55,16 +56,17 @@ header h1 {
 	padding-left: 15px;
 	text-align: center;
 	font-weight: normal;
+	color: black;
 }
 
 header p {
-	color: white;
+	color: black;
 	text-align: center;
 	padding-bottom: 15px;
 }
 
 header h1 a {
-	color: white;
+	color: black;
 	font-size: 1.5em;
 	text-decoration: none;
 	font-family: "Graduate", serif;
@@ -82,10 +84,171 @@ h3 {
         text-align: center;
 }
 
+body {
+	background-color: black;
+	width: 100%;
+}
 
 #intro {
-	width 100%;
-	height: 100vh;
-	background-image: url("img/introBG.jpg");
-	background-size: cover;
+	background-color: black;
+	width: 100%;
+	height: 75vh;
+	overflow: hidden;
+	position: relative;
+	border-bottom: 10px solid black;
+	
+}
+
+#vidbg {
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+
+}
+
+#repair {
+	width: 100%;
+	color: black;
+	overflow: hidden;
+}
+
+#repair article {
+	margin: auto;
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	border-top: 4px solid #FFCD00;
+	background-image: url("img/mech.jpg");
+	color: white;
+	padding: 10px;
+}
+
+#repair article h2 {
+	color: white;
+}
+
+#repair article table {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#repair article table td {
+	width: 24%;
+}
+
+#tires {
+	width:100%;
+	overflow: hidden;
+}
+
+#tires article {
+        margin: auto;
+        border-left: 4px solid black;
+        border-right: 4px solid black;
+	border-top: 4px solid #FFCD00;
+	background-image: url("img/tire.jpg");
+        color: white;
+        padding: 10px;
+}
+
+#tires article  h2 {
+        color: white;
+}
+
+#detail {
+	width: 100%;
+	overflow: hidden;
+}
+
+#detail article{
+        margin: auto;
+        border-left: 4px solid black;
+        border-right: 4px solid black;
+	border-top: 4px solid #FFCD00;
+        background-image: url("img/detail.jpg");
+        height: 200px;
+        padding: 10px;
+}
+
+.fog {
+	background-color: rgba(0,0,0,0.75);
+	color: white;
+	min-height: 200px;
+	padding-left: 30px;
+	padding-right:30px;
+}
+
+.fog h2 {
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2em;
+}
+
+.fog p {
+	color: white;
+}
+
+input {
+	width: 50%;
+}
+
+textarea {
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+#contact-inner h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#contact-inner p {
+	margin-bottom: 20px;
+}
+
+
+footer {
+	width: 100%;
+	background-color: black;
+	border-top: 2px solid #FFCD00;
+}
+
+footer a {
+	color: white;
+	margin-left: 20px;
+}
+
+#stars {
+	border-top: 2px solid #FFCD00;
+	width: 100%;
+}
+
+#stars p {
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.stars {
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
+#contact {
+	width: 90%;
+	margin: auto;
+	border: 3px solid #FFCD00;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	color: white;
+}
+
+#contact-inner {
+	width: 50%;
+	margin: auto;
 }

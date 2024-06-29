@@ -1,0 +1,145 @@
+/*    8888888b.                                     d8b                              */
+/*    888   Y88b                                    Y8P                              */
+/*    888    888                                                                     */
+/*    888   d88P  8888b.   .d8888b .d88888 888  888 888 88888b.   .d88b.  888  888   */
+/*    8888888P"      "88b d88P"   d88" 888 888  888 888 888 "88b d88""88b `Y8bd8P'   */
+/*    888 T88b   .d888888 888     888  888 888  888 888 888  888 888  888   X88K     */
+/*    888  T88b  888  888 Y88b.   Y88b 888 Y88b 888 888 888  888 Y88..88P .d8""8b.   */
+/*    888   T88b "Y888888  "Y8888P "Y88888  "Y88888 888 888  888  "Y88P"  888  888   */
+/*                                     888                                           */
+/*                                     888  Full-Stack Web Design & Development      */
+/*                                     888  Racquinox.net - Racquinox@Protonmail.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Stardos+Stencil:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+	background-image: url("img/bg.jpg");
+	background-size: cover;
+}
+
+header {
+	background-color: black;
+	width: 80%;
+	margin-top: 60px;
+}
+
+h1 a {
+	color: white;
+	font-family: "Stardos Stencil", system-ui;
+	font-weight: normal;
+	font-size: 3em;
+	margin-left: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+
+nav {
+	width: 80%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: black;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+main {
+	width: 80%;
+	margin: auto;
+	background-color: black;
+	color: white;
+	margin-top: 40px;
+	min-height: 70vh;
+}
+
+.halfC {
+	display: flex;
+}
+
+.half {
+	display: inline-block;
+	width: 47%;	
+}
+
+.half img {
+	max-width: 100%;
+}
+
+.half p {
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-top: 10px;
+	font-size: 1.25em;
+}
+
+.half h2 {
+	padding-left: 30px;
+	padding-top: 10px;
+	font-size: 2em
+}
+
+#membership {
+	width: 90%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+#membership h2 {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#membership p {
+	margin-bottom: 30px;
+}
+
+input {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#login {
+	display: flex;
+}
+
+#sign-up {
+	width: 48%;
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+	padding-left: 30px;
+}
+
+#sign-in {
+	width: 48%;
+	padding-left: 30px;
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+	margin-top: 20px;
+}
+
+footer a {
+	color: white;
+	margin-left: 20px;
+}

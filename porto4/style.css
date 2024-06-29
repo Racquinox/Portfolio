@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: "Ubuntu", sans-serif;
+}
+
+body {
+	background-image: url("../img/porto3.JPG");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+nav {
+	width: 100%;
+	margin-top: 10px;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: black;
+}
+
+nav ul li a {
+	color: #5e8df9;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.centered {
+	position: relative;
+	top: 35%;
+	width: 35%;
+	margin: auto;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+
+.centered h1{
+	font-size: 5em;
+	text-align: center;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #5e8df9;
+}
+
+h1 a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.centered h2 {
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center:
+	
+}
