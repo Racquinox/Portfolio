@@ -72,12 +72,13 @@ main {
 }
 
 .halfC {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
 }
 
 .half {
-	display: inline-block;
-	width: 47%;	
+	display: inline-block;	
 }
 
 .half img {
