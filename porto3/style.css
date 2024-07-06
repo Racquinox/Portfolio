@@ -71,6 +71,39 @@ main {
 	min-height: 70vh;
 }
 
+main a {
+	color: white;
+}
+
+.banner {
+	width: 100%;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.mid {
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.mid h2 {
+	margin-bottom: 10px;
+}
+
+.mid h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.note {
+	margin-top: 10px;
+        margin-bottom: 10px;
+}
+
 .halfC {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -132,6 +165,10 @@ input {
 #sign-in {
 	width: 48%;
 	padding-left: 30px;
+}
+
+.amenit {
+	padding-top: 20px;
 }
 
 footer {
