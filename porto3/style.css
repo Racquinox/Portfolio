@@ -99,6 +99,10 @@ main a {
 	margin-bottom: 10px;
 }
 
+iframe {
+	margin-top: 50px;
+}
+
 .note {
 	margin-top: 10px;
         margin-bottom: 10px;
